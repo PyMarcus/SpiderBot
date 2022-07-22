@@ -31,3 +31,14 @@ Even though Scrapy was originally designed for web scraping, it can also be used
 
 
 
+### run with cache:
+
+    scrapy crawl quotes -s HTTPCACHE_ENABLE=1
+
+### create a new spider:
+    
+    scrapy genspider name site.com
+
+### list spiders
+
+    scrapy list
